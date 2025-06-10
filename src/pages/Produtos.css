@@ -1,0 +1,20 @@
+/* src/pages/Produtos.css */
+.produtos-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.lista-produtos {
+  list-style: none;
+  padding: 0;
+}
+
+.lista-produtos li {
+  background: #f8f9fa;
+  margin: 0.5rem auto;
+  padding: 1rem;
+  border-radius: 4px;
+  max-width: 400px;
+}
