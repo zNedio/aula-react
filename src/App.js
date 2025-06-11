@@ -9,7 +9,6 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-
     const fetchContacts = () => {
       setTimeout(() => {
         setContacts([
